@@ -1,3 +1,6 @@
+
+import orderRoutes from './routes/orderRoutes.js';
+import { protectRoute } from './middleware/authMiddleware.js';
 import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
